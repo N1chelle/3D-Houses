@@ -8,27 +8,27 @@ We are LIDAR PLANES, active in the Geospatial industry. We would like to use our
 
 Consolidate the knowledge in Python, specifically in :
 
-..* NumPy
-..* Pandas
-..* Matplotlib
+* NumPy
+* Pandas
+* Matplotlib
 
 ### Learning Objectives
 
-..* to be able to search and implement new libraries
-..* to be able to read and use the shapefile format
-..* to be able to read and use geoTIFFs
-..* to be able to render a 3D plot
-..* to be able to present a final product
+* to be able to search and implement new libraries
+* to be able to read and use the shapefile format
+* to be able to read and use geoTIFFs
+* to be able to render a 3D plot
+* to be able to present a final product
 
 ### Must-have features
 
-..* 3D lookup of houses.
+* 3D lookup of houses.
 
 ### Nice-to-have features
 
-..* Optimize your solution to have the result as fast as possible.
-..* Features like the living area of the house in m², how many floors, if there is a pool, the vegetation in the neighborhood, etc...
-..* Better visualization.
+* Optimize your solution to have the result as fast as possible.
+* Features like the living area of the house in m², how many floors, if there is a pool, the vegetation in the neighborhood, etc...
+* Better visualization.
 
 ### Process 
 
