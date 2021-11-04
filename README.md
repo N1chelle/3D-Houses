@@ -32,9 +32,9 @@ Consolidate the knowledge in Python, specifically in :
 
 ### Process 
 
-1. RESEARCH : The project involved researching and reading about various file types(.tif and .shp files) and their use. Also, the necessary libraries required to work with them.
+1. RESEARCH : The project involved researching and reading about various file types(.tif and .shp files) and their use. Also, finding out the necessary libraries required to work with them.
 
-2. COLLECTION OF DATA: The next step was to collect the required information from the Data Surface Model(DSM) and Data Terrain Model(DTM) files which and save them in a CSV file using pandas library.
+2. COLLECTION OF DATA: The next step was to collect the required information from the Data Surface Model(DSM) and Data Terrain Model(DTM) files (which can be found on https://www.geopunt.be website) and save them in a CSV file using pandas library.
 
 3. PROCESSING OF DATA : This involved:
 
