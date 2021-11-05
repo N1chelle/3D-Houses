@@ -39,12 +39,14 @@ Consolidate the knowledge in Python, specifically in :
 3. PROCESSING OF DATA : This involved:
 
 * getting the coordinates from an address, 
-* converting it to reference system of the tiff file, 
+* converting it to the reference system of the tif file, 
 * finding the file number of the tif file in the .csv file, from the coordinates,
 * creating the polygon of the location which is the actual shape of the location,
 * using that shape to crop the tif files.
 
-4. DATA VISUALIZATION : From the cropped tiff files of DSM and DTM, Canopy Height Model(CHM) can be found, which is the difference between DSM and DTM. Using that array which represents the elevation of the property, a 3-D plot could be plotted.
+4. DATA VISUALIZATION : From the cropped tif files of DSM and DTM, Canopy Height Model(CHM) can be found, which is the difference between DSM and DTM. Using that array which represents the elevation of the property, a 3-D plot could be plotted.
+
+![](lidarTree-height.png)
 
 ### VISUALS
 ![](The_Beacon_3D-Plot_matplotlib.png)
@@ -57,6 +59,19 @@ Duration: 2 weeks
 From: 25/10/21
 Deadline: 04/11/21 17:00 PM
 
-### FURTHER DEVELOPMENT
+### CHALLENGES
 
-I would like to improve the code so that transforming the EPSG of the tif files in not required. Also, I would like to process the files without downloading them and get the result more quickly.
+* Understanding the content of .tif and .shp files (contained in DSM and DTM files) and how to work with them.
+* Finding the right libraries and their installation.
+* How to proceed with the data extracted from .tif files.
+* Finding the right .tif file from the coordinates of the location needed to be plotted.
+* Creating the polygon and changing its CRS.
+
+
+### FURTHER IMPROVEMENT
+
+I would like to improve the code by:
+* Working on the nice to have features.
+* Masking(clipping/cropping) the .tif files using the polygon with transformed Coordinate Reference System(CRS).
+* Processing the .tif files without downloading them.
+* Plotting locations whose coordinates are divided in two or more .tif files.
