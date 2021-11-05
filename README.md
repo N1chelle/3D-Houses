@@ -1,10 +1,10 @@
-# 3D-Houses
+# 3D-HOUSES
 
-### The Mission
+### THE MISSION
 
 We are LIDAR PLANES, active in the Geospatial industry. We would like to use our data to launch a new branch in the insurance business. So, we need you to build a solution with our data to model a house in 3D with only a home address.
 
-### Mission objectives
+### MISSION OBJECTIVES
 
 Consolidate the knowledge in Python, specifically in :
 
@@ -12,7 +12,7 @@ Consolidate the knowledge in Python, specifically in :
 * Pandas
 * Matplotlib
 
-### Learning Objectives
+### LEARNING OBJECTIVES
 
 * to be able to search and implement new libraries
 * to be able to read and use the shapefile format
@@ -20,17 +20,17 @@ Consolidate the knowledge in Python, specifically in :
 * to be able to render a 3D plot
 * to be able to present a final product
 
-### Must-have features
+### MUST-HAVE FEATURES
 
 * 3D lookup of houses.
 
-### Nice-to-have features
+### NICE-TO-HAVE FEATURES
 
 * Optimize your solution to have the result as fast as possible.
 * Features like the living area of the house in m², how many floors, if there is a pool, the vegetation in the neighborhood, etc...
 * Better visualization.
 
-### Process 
+### PROCESS
 
 1. RESEARCH : The project involved researching and reading about various file types(.tif and .shp files) and their use. Also, finding out the necessary libraries required to work with them.
 
